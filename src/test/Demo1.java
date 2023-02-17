@@ -9,7 +9,9 @@ public class Demo1 {
 	// public static void main(String[] args) {
 	@Test(groups = {"smoke"})
 	public void test1() {
-		System.out.println("test1");
+		System.out.println("testDemo1");
+		System.out.println("testDemo2");
+		System.out.println("testDemo3");
 	}
 
 	@Test(timeOut=4000)
